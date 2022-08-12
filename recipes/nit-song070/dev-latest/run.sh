@@ -12,7 +12,8 @@ function xrun () {
     set +x
 }
 
-script_dir=$(cd $(dirname ${BASH_SOURCE:-$0}); pwd)
+# script_dir=$(cd $(dirname ${BASH_SOURCE:-$0}); pwd)
+script_dir=$(pwd)
 NNSVS_ROOT=$script_dir/../../../
 NNSVS_COMMON_ROOT=$NNSVS_ROOT/recipes/_common/spsvs
 . $NNSVS_ROOT/utils/yaml_parser.sh || exit 1;
