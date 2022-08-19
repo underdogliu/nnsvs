@@ -97,7 +97,7 @@ postfilter_eval_checkpoint: latest.pth
 ###########################################################
 
 # NOTE: conf/parallel_wavegan/${vocoder_model}.yaml must exist.
-vocoder_model:
+vocoder_model: hn-sinc-nsf_sr48k_hifiganD
 # Pretrained checkpoint path for the vocoder model
 # NOTE: if you want to try fine-tuning, please specify the path here
 pretrained_vocoder_checkpoint:
